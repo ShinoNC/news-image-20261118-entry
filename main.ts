@@ -15,8 +15,15 @@
 // a dark navy masthead, three hero stories (the tanker strikes, the
 // Kerch arch collapse, Nvidia) each carrying a location caption, eight
 // icon-led secondary stories, a BY THE NUMBERS strip, and a larger map.
-// Story count grew from 26 to 30 (added: Kerch collapse, Peltola,
-// Xavier, Pope Leo).
+// Story count grew from 26 to 33 (added: Kerch collapse, Peltola,
+// Xavier, Pope Leo, measles, Odesa, T-Mobile outage).
+//
+// Improvement round (18 Nov evening): the Kerch hero was rebuilt as a
+// dark storm scene to match the other heroes' tone, the map dots were
+// corrected (Santa Clara, Kerch, Rome, Mongolia were misplaced; Xavier
+// was clipped), the Kerch deck was updated (rail resumes), the APEC
+// icon was replaced with a summit scene, and 3 stories that broke after
+// the first build were added to the ALSO list.
 
 import { copyFileSync, mkdirSync, statSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
