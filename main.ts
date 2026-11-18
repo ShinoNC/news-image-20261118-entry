@@ -23,7 +23,10 @@
 // corrected (Santa Clara, Kerch, Rome, Mongolia were misplaced; Xavier
 // was clipped), the Kerch deck was updated (rail resumes), the APEC
 // icon was replaced with a summit scene, and 3 stories that broke after
-// the first build were added to the ALSO list.
+// the first build were added to the ALSO list. Final round: the Nvidia
+// hero was rebuilt (chip + bold rising green arrow and climbing charts,
+// so it tells the "beats estimates" story instead of showing a bare
+// chip), and map dot 3 moved onto California (it still sat in Oregon).
 
 import { copyFileSync, mkdirSync, statSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
